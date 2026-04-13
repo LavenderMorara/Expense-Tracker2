@@ -1,4 +1,4 @@
-💰 Personal Finance Tracker (Java Full Stack Project)
+💰 Expense Tracker (Java Full Stack Project)
 📌 Overview
 
 The Personal Finance Tracker is a full-stack Java-based web application that helps users manage their finances by tracking expenses, setting budgets, and analyzing spending patterns.
@@ -10,6 +10,8 @@ Enable users to record and manage daily expenses
 Provide budgeting tools to control spending
 Generate reports and insights on financial behavior
 Offer a simple and intuitive interface for financial tracking
+
+
 🧠 Features
 ✅ User Management
 User registration and login
@@ -31,6 +33,8 @@ Total spending summary
 Category-wise breakdown
 Monthly reports
 Visual charts (bar/pie charts)
+
+
 🏗️ System Architecture
 🔹 Backend
 Java
@@ -42,6 +46,8 @@ MySQL
 🔹 Tools
 Git & GitHub
 Postman (API testing)
+
+
 🧱 System Design
 Key Entities:
 User
@@ -77,6 +83,8 @@ Categories Table
 Field	Type
 id	INT (PK)
 name	VARCHAR
+
+
 🔄 System Inputs & Outputs
 Inputs:
 User credentials (login/register)
@@ -87,6 +95,8 @@ Expense records
 Budget alerts
 Financial summaries
 Visual reports (charts)
+
+
 ⚙️ Installation & Setup
 Prerequisites:
 Java JDK 17+
@@ -116,6 +126,8 @@ mvn spring-boot:run
 Open in browser:
 
 http://localhost:8080
+
+
 🧪 Sample Use Case
 User logs in
 Adds expenses (e.g., Food – KES 500)
