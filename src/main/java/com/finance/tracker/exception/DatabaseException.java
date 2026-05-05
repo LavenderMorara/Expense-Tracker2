@@ -1,8 +1,12 @@
 package com.finance.tracker.exception;
 
-public class ResourceNotFoundException extends RuntimeException {
+public class DatabaseException extends RuntimeException {
 
-    public ResourceNotFoundException(String message) {
+    public DatabaseException(String message) {
         super(message);
+    }
+
+    public DatabaseException(String message, Throwable cause) {
+        super(message, cause);
     }
 }
