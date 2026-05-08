@@ -3,18 +3,13 @@ package com.finance.tracker.controller;
 import com.finance.tracker.model.User;
 import com.finance.tracker.service.UserService;
 
-/**
- * FIXED VERSION:
- * - No broken wiring
- * - Ensures UserService is initialized with logged-in user
- * - Prevents null service issues in ProfilePanel
- */
+
 public class UserController {
 
     private final UserService userService;
 
     public UserController(User loggedInUser) {
-        // IMPORTANT: service MUST know the logged-in user
+       
         this.userService = new UserService(loggedInUser);
     }
 
