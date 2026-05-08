@@ -148,3 +148,13 @@ Covers Object-Oriented Programming
 Database design & integration
 REST API development
 Frontend-backend interaction
+
+
+HOW TO LAUNCH THE APP
+
+1. Run the command :
+mvn install clean
+
+2. Run the command :
+java -jar target/expense-tracker-1.0-SNAPSHOT-jar-with-dependencies.jar
+
