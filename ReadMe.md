@@ -105,28 +105,14 @@ MySQL
 IDE (IntelliJ / Eclipse / VS Code)
 Steps:
 
-Clone the repository:
-
+1. Clone the repository:
 git clone https://github.com/your-username/personal-finance-tracker.git
 
-Navigate to the project directory:
+2. Run the command :
+mvn install clean
 
-cd personal-finance-tracker
-
-Configure database in application.properties:
-
-spring.datasource.url=jdbc:mysql://localhost:3306/finance_db
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-
-Run the application:
-
-mvn spring-boot:run
-
-Open in browser:
-
-http://localhost:8080
-
+3. Run the command :
+java -jar target/expense-tracker-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 🧪 Sample Use Case
 User logs in
@@ -134,27 +120,4 @@ Adds expenses (e.g., Food – KES 500)
 Sets monthly budget (e.g., Food – KES 5000)
 System tracks spending
 User views monthly report and insights
-🚀 Future Enhancements
-Email notifications for budget alerts
-Export reports (PDF/Excel)
-Mobile app integration
-AI-based spending insights
-Multi-currency support
-📊 Difficulty Level
-
-Intermediate to Advanced (6.5/10)
-
-Covers Object-Oriented Programming
-Database design & integration
-REST API development
-Frontend-backend interaction
-
-
-HOW TO LAUNCH THE APP
-
-1. Run the command :
-mvn install clean
-
-2. Run the command :
-java -jar target/expense-tracker-1.0-SNAPSHOT-jar-with-dependencies.jar
 
